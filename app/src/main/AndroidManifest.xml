@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bot.box.horology">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gemini1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".PiscesActivity"
+            android:label="@string/piscesTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CapricornActivity"
+            android:label="@string/capricornTittle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ScorpioActivity"
+            android:label="@string/scorpioTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SagittariusActivity"
+            android:label="@string/sagittariusTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".LibraActivity"
+            android:label="@string/libraTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".VirgoActivity"
+            android:label="@string/virgoTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".LeoActivity"
+            android:label="@string/leoTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CancerActivity"
+            android:label="@string/cancerTittle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".GeminiActivity"
+            android:label="@string/geminiTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".AquariusActivity"
+            android:label="@string/aquariusTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".TaurusActivity"
+            android:label="@string/taurusTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".AriesActivity"
+            android:label="@string/ariesTitle"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
