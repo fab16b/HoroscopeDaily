@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Daily Horoscope</string>
+    <string name="app_name">Daily Horoscope</string>
     <string name="ariesTitle">Aries</string>
     <string name="aquariusTitle">Aquarius</string>
     <string name="cancerTittle">Cancer</string>
